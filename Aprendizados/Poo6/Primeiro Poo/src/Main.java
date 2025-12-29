@@ -75,8 +75,17 @@ public class Main {
         carro4.setTemABS(false);
         carro4.setTemAirbag(true);
 
-        System.out.println("----- Veículos ----- " );
-       System.out.println(carro1 + "\n" + carro2 + "\n" + caminhao1 + "\n" + caminhao2 + "\n" + aviao1 + "\n" + aviao2 + "\n" + moto1 + "\n" + moto2 + "\n" + carro3 + "\n" + carro4);
+        System.out.println("----- Veículos ----- ");
+        System.out.println(carro1);
+        System.out.println(carro2);
+        System.out.println(caminhao1);
+        System.out.println(caminhao2);
+        System.out.println(aviao1);
+        System.out.println(aviao2);
+        System.out.println(moto1);
+        System.out.println(moto2);
+        System.out.println(carro3);
+        System.out.println(carro4);
 
 
 

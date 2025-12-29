@@ -60,4 +60,13 @@ public class Carro extends Veiculo{
     public boolean isTemAirbag() {
         return temAirbag;
     }
+
+    @Override
+    public String toString() {
+        return this.getMarca() + " " + this.getModelo() + " " + this.getAno() + 
+               " - Portas: " + this.getNumeroDePortas() + 
+               " - Esportivo: " + this.getEesportivo() + 
+               " - ABS: " + this.getTemABS() + 
+               " - Airbag: " + this.getTemAirbag();
+    }
 }

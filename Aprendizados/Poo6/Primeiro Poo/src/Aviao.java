@@ -29,6 +29,9 @@ public class Aviao extends Veiculo{
 
     @Override
     public String toString() {
-        return this.modeloDoAviao + " " + this.capacidadeDePassageiros + " " + this.tipoDeTurbina;
+        return this.getMarca() + " " + this.getModelo() + " " + this.getAno() + 
+               " - Modelo: " + this.modeloDoAviao + 
+               " - Capacidade: " + this.capacidadeDePassageiros + 
+               " - Turbina: " + this.tipoDeTurbina;
     }
 }
